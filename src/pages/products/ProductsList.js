@@ -1,6 +1,6 @@
 
 import { DataGrid } from "@material-ui/data-grid";
-import { ArrowForward } from "@material-ui/icons";
+import { ArrowForward, DeleteOutline } from "@material-ui/icons";
 import "./Products.css";
 import { productsRows } from "../../components/DummyData";
 import { Link } from "react-router-dom";
@@ -63,7 +63,10 @@ function ProductsList({ title }) {
             <Link to={"/products/" + params.row.id}>
               <ArrowForward className="customerEditIcon" />
             </Link>
-
+            <DeleteOutline
+              className="customerDeleteIcon"
+              onClick={() => handleDelete(params.row.id)}
+            />
             
           </div>
         );
