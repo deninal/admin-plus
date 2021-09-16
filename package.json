@@ -1,6 +1,7 @@
 {
   "name": "admin-panel",
   "version": "0.1.0",
+  "homepage": "https://github.com/deninal/admin-plus/tree/main/public",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
