@@ -1,0 +1,19 @@
+.products, .newProduct{
+    padding: 20px;
+}
+
+.textField{
+    width: 200px !important;
+}
+
+.productName{
+    display: flex;
+    align-items: center;
+}
+
+.productName img{
+    width: 80px !important;
+    height: 60px !important;
+    margin-right: 10px;
+    object-fit: cover;
+}

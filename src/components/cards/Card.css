@@ -1,0 +1,209 @@
+.card{
+    background-color: white;
+    margin-right: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    min-width: fit-content;
+   
+}
+.cardTitle{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.cardTitleIcon{
+    color: var(--blue-color) !important;
+    margin-right: 10px;
+}
+
+.cardBody{
+    padding: 20px 0px;
+}
+.cardBodyText{
+    padding: 0px 20px;
+}
+.cardBody h3{
+    color: var(--gray-color);
+}
+.cardBody p{
+    font-size: 13px;
+    color: var(--light-gray);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card h2, h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.card1Amount{
+    display: flex;
+    font-size: 35px;
+    font-weight: 600;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.amountIcon{
+    margin-left: 20px;
+    font-size: 3rem !important;
+    color: var(--blue-color);
+}
+.cardButtonWrapper{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--bg-body);
+}
+.cardButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: var(--blue-color);
+}
+
+.cardButton:hover, .cardButton:active{
+    background-color: var(--light-blue);
+    color: var(--blue-color-hover);
+}
+.buttonIcon{
+    margin-left: 10px;
+}
+
+.cardParameter{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.card h1{
+    font-size: 3rem;
+}
+.cardIconBig{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 15rem !important;
+    color: green !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* User List Small */
+.userListSm{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px 20px;  
+    border-top: 1px solid lightgray;
+}
+.userListSm:hover{
+    background-color: var(--light-blue);
+}
+.userListSm:last-child{
+    border-bottom: 1px solid lightgray;
+}
+
+
+.checkbox{
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+.avatarList{
+    margin-right: 10px;
+}
+
+.username{
+    position: relative;
+    line-height: 15px;
+    top: 5px;
+    font-weight: 300;
+}
+.username h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.username h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moreIcon{
+    margin-left: auto;
+    cursor: pointer;  
+    border-radius: 50%;
+}
+.moreIcon:hover{
+    background-color: var(--light-blue);
+}
+.scroll{
+    scroll-margin-top: 5px;
+    overflow-y: scroll;
+    max-height: 350px;
+    margin-bottom: 10px;
+}
+.scroll::-webkit-scrollbar{
+    padding-top: 10px;
+    width: 7px;
+    margin-top: 20px;
+}
+.scroll::-webkit-scrollbar-track {
+    background: none;
+  }
+.scroll::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 20px;
+  }
+
+
+  /* Card Transactions */
+  .transactionItem {
+      display: grid;
+      grid-template-columns: 1fr 2fr 5fr 4fr 3fr 1fr;
+      align-items: center;
+      border-bottom: .5px solid lightgray;
+      padding: 20px 20px;
+      cursor: pointer;
+  }
+ 
+  .transactionItem:hover{
+      background-color: var(--light-blue);
+  }
+ 
+  .categoryNames{
+    padding: 0px 20px;
+    padding-bottom: 20px !important;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr 4fr 3fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+  .transactionItem h5{
+      font-size: 15px;
+      font-weight: 400;
+  }
+
+  .transactionItem span{
+      padding: 2px 10px;
+      border-radius: 30px;
+      width: fit-content;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      font-weight: 300;
+  }
+ 

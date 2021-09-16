@@ -1,0 +1,64 @@
+
+.home{
+    padding: 20px;
+}
+
+.pageTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.pageTitleLeft h5{
+    color: var(--gray-color);
+}
+
+
+.pageTitleRight{
+    margin-top: 20px;
+    background-color: var(--blue-color);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 30px;
+    width: fit-content;
+    align-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: fit-content;
+    height: fit-content;
+}
+.pageTitleRight:hover{
+    background-color: var(--blue-color-hover);
+}
+
+/* Page Body */
+.pageBody{
+    display: grid;
+}
+
+.pageBodyOverview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.chartWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 20px;
+}
+
+.widgetsWrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 20px;
+}
+
+.cardWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
