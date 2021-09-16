@@ -1,6 +1,6 @@
 
 import { DataGrid } from "@material-ui/data-grid";
-import { ArrowForward, BorderColor, DeleteOutline } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 import "./Products.css";
 import { productsRows } from "../../components/DummyData";
 import { Link } from "react-router-dom";
