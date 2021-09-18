@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+This is an admin dashboard template created in React and Material UI
+
+![image](https://user-images.githubusercontent.com/25770207/133893032-afe86911-f9a2-4989-a8f5-613b6fcb50a5.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
